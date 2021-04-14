@@ -27,7 +27,8 @@ namespace TrigonometryApp
 
         private void lawOfSineButtonClick(object sender, RoutedEventArgs e)
         {
-
+            LawOfSine LOS = new LawOfSine();
+            LOS.Show();
         }
     }
 }

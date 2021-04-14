@@ -1,11 +1,11 @@
-﻿<Window x:Class="TrigonometryApp.Window1"
+﻿<Window x:Class="TrigonometryApp.LawOfSine"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrigonometryApp"
         mc:Ignorable="d"
-        Title="Window1" Height="800" Width="800">
+        Title="LawOfSine" Height="800" Width="800">
     <Grid>
         <Grid>
             <Grid.ColumnDefinitions>
@@ -30,12 +30,12 @@
             </Grid.RowDefinitions>
 
             <Image Source="Triangle_700.gif" Grid.Column="2" Grid.Row="1" Grid.RowSpan="3" Grid.ColumnSpan="4"/>
-            <TextBox x:Name="xAngleA" Grid.Row="4" Grid.Column="1" BorderBrush="Black" BorderThickness="3" Height="60" Grid.ColumnSpan="2" ></TextBox>
-            <TextBox x:Name="xAngleB" Grid.Row="5" Grid.Column="1" BorderBrush="Black" BorderThickness="3" Height="60" Grid.ColumnSpan="2" ></TextBox>
-            <TextBox x:Name="xAngleC" Grid.Row="6" Grid.Column="1" BorderBrush="Black" BorderThickness="3" Height="60" Grid.ColumnSpan="2" ></TextBox>
-            <TextBox x:Name="xSideA" Grid.Row="4" Grid.Column="4" BorderBrush="Black" BorderThickness="3" Height="60" Grid.ColumnSpan="2" ></TextBox>
-            <TextBox x:Name="xSideB" Grid.Row="5" Grid.Column="4" BorderBrush="Black" BorderThickness="3" Height="60" Grid.ColumnSpan="2" ></TextBox>
-            <TextBox x:Name="xSideC" Grid.Row="6" Grid.Column="4" BorderBrush="Black" BorderThickness="3" Height="60" Grid.ColumnSpan="2" ></TextBox>
+            <TextBox x:Name="xAngleA" Grid.Row="4" Grid.Column="1" BorderBrush="Black" BorderThickness="3" Height="60" Grid.ColumnSpan="2" FontSize="30" TextAlignment="Justify">0</TextBox>
+            <TextBox x:Name="xAngleB" Grid.Row="5" Grid.Column="1" BorderBrush="Black" BorderThickness="3" Height="60" Grid.ColumnSpan="2" FontSize="30" TextAlignment="Justify">0</TextBox>
+            <TextBox x:Name="xAngleC" Grid.Row="6" Grid.Column="1" BorderBrush="Black" BorderThickness="3" Height="60" Grid.ColumnSpan="2" FontSize="30" TextAlignment="Justify">0</TextBox>
+            <TextBox x:Name="xSideA" Grid.Row="4" Grid.Column="4" BorderBrush="Black" BorderThickness="3" Height="60" Grid.ColumnSpan="2" FontSize="30" TextAlignment="Justify">0</TextBox>
+            <TextBox x:Name="xSideB" Grid.Row="5" Grid.Column="4" BorderBrush="Black" BorderThickness="3" Height="60" Grid.ColumnSpan="2" FontSize="30" TextAlignment="Justify">0</TextBox>
+            <TextBox x:Name="xSideC" Grid.Row="6" Grid.Column="4" BorderBrush="Black" BorderThickness="3" Height="60" Grid.ColumnSpan="2" FontSize="30" TextAlignment="Justify">0</TextBox>
 
             <TextBlock Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">Angle A:</TextBlock>
             <TextBlock Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">Angle B:</TextBlock>
@@ -53,17 +53,17 @@
                 Calculate
             </Button>
 
-            <Button x:Name="xBackHome" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" FontSize="25" Width="180" Height="80">
+            <Button x:Name="xCloseWindow" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" FontSize="25" Width="180" Height="80" Click="xCloseWindow_Click">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10"/>
                     </Style>
                 </Button.Resources>
-                Return Home
+                Close Window
             </Button>
 
-            
-            
+
+
         </Grid>
     </Grid>
 </Window>
