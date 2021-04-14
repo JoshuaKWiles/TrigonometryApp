@@ -1,0 +1,15 @@
+C:\Users\kingj\source\repos\TrigonometryApp\TrigonometryApp\bin\Debug\TrigonometryApp.exe.config
+C:\Users\kingj\source\repos\TrigonometryApp\TrigonometryApp\bin\Debug\TrigonometryApp.exe
+C:\Users\kingj\source\repos\TrigonometryApp\TrigonometryApp\bin\Debug\TrigonometryApp.pdb
+C:\Users\kingj\source\repos\TrigonometryApp\TrigonometryApp\obj\Debug\TrigonometryApp.csprojAssemblyReference.cache
+C:\Users\kingj\source\repos\TrigonometryApp\TrigonometryApp\obj\Debug\MainWindow.g.cs
+C:\Users\kingj\source\repos\TrigonometryApp\TrigonometryApp\obj\Debug\App.g.cs
+C:\Users\kingj\source\repos\TrigonometryApp\TrigonometryApp\obj\Debug\TrigonometryApp_MarkupCompile.cache
+C:\Users\kingj\source\repos\TrigonometryApp\TrigonometryApp\obj\Debug\TrigonometryApp_MarkupCompile.lref
+C:\Users\kingj\source\repos\TrigonometryApp\TrigonometryApp\obj\Debug\MainWindow.baml
+C:\Users\kingj\source\repos\TrigonometryApp\TrigonometryApp\obj\Debug\TrigonometryApp.g.resources
+C:\Users\kingj\source\repos\TrigonometryApp\TrigonometryApp\obj\Debug\TrigonometryApp.Properties.Resources.resources
+C:\Users\kingj\source\repos\TrigonometryApp\TrigonometryApp\obj\Debug\TrigonometryApp.csproj.GenerateResource.cache
+C:\Users\kingj\source\repos\TrigonometryApp\TrigonometryApp\obj\Debug\TrigonometryApp.csproj.CoreCompileInputs.cache
+C:\Users\kingj\source\repos\TrigonometryApp\TrigonometryApp\obj\Debug\TrigonometryApp.exe
+C:\Users\kingj\source\repos\TrigonometryApp\TrigonometryApp\obj\Debug\TrigonometryApp.pdb
