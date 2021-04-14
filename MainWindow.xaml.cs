@@ -24,5 +24,10 @@ namespace TrigonometryApp
         {
             InitializeComponent();
         }
+
+        private void lawOfSineButtonClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

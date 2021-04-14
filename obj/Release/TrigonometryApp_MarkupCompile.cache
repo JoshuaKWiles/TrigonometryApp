@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-D:\C# Projects\TrigonometryApp\obj\Debug\
+D:\C# Projects\TrigonometryApp\obj\Release\
 TrigonometryApp
 none
 false
-DEBUG;TRACE
+TRACE
 D:\C# Projects\TrigonometryApp\App.xaml
 2462529049
 

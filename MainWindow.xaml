@@ -32,7 +32,7 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <Button Grid.Column="0" Padding="5" Width="92" HorizontalAlignment="Center" FontWeight="Bold">
+                    <Button x:Name="lawOfSineButton" Grid.Column="0" Padding="5" Width="92" HorizontalAlignment="Center" FontWeight="Bold" Click="lawOfSineButtonClick">
                         <Button.Resources>
                             <Style TargetType="Border">
                                 <Setter Property="CornerRadius" Value="10"/>

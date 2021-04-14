@@ -88,22 +88,6 @@ namespace TrigonometryApp {
         #line default
         #line hidden
         
-        
-        #line 47 "..\..\Window1.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button xStartSinLaw;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 56 "..\..\Window1.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button xBackHome;
-        
-        #line default
-        #line hidden
-        
         private bool _contentLoaded;
         
         /// <summary>
@@ -151,12 +135,6 @@ namespace TrigonometryApp {
             return;
             case 6:
             this.xSideC = ((System.Windows.Controls.TextBox)(target));
-            return;
-            case 7:
-            this.xStartSinLaw = ((System.Windows.Controls.Button)(target));
-            return;
-            case 8:
-            this.xBackHome = ((System.Windows.Controls.Button)(target));
             return;
             }
             this._contentLoaded = true;

@@ -43,6 +43,26 @@
             <TextBlock Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">Side a:</TextBlock>
             <TextBlock Grid.Row="5" Grid.Column="3" Grid.ColumnSpan="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">Side b:</TextBlock>
             <TextBlock Grid.Row="6" Grid.Column="3" Grid.ColumnSpan="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">Side c:</TextBlock>
+
+            <Button x:Name="xStartSinLaw" Grid.Column="4" Grid.Row="7" Grid.ColumnSpan="3" FontSize="40" Height="80" Width="280">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+                Calculate
+            </Button>
+
+            <Button x:Name="xBackHome" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" FontSize="25" Width="180" Height="80">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+                Return Home
+            </Button>
+
+            
             
         </Grid>
     </Grid>
